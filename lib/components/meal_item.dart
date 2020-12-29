@@ -18,7 +18,7 @@ class MealItem extends StatelessWidget {
       if (result == null) {
         print('Sem resultado');
       } else {
-        print('Prato ${result} favoritado!');
+        print('Prato $result favoritado!');
       }
     });
   }
